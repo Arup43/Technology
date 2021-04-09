@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    max-width: 100vw;
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.settings{
+    position: fixed;
+    top: 30px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding-top: 3.7px;
+    padding-left: 6.5px;
+    border-radius: 0 5px 5px 0;
+    z-index: 1;
+    cursor: pointer;
+}
+.intro{
+    background-image: url('https://content.thriveglobal.com/wp-content/uploads/2019/02/office-work.jpg');
+    height: 96vh;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.intro .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+}
+.intro h5{
+    padding-top: 40px;
+    padding-bottom: 19px;
+    font-size: 18px;
+}
+.intro h4{
+    color: #00BCFC;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.intro h3{
+    font-size: 23px;
+    padding-bottom: 60px;
+}
+.box p{
+    font-size: 10px;
+    color: #00BCFC;
+}
+.box h6{
+    font-size: 33px;
+    font-weight: 100;
+}
+.box{
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    grid-row: 90px;
+    padding-left: 443px;
+    gap: 10px;
+}
+.box .b{
+    background: transparent;
+    border: 1px solid #00BCFC;
+    padding: 17px 0;
+}
+
+.subs{
+    margin-top: 60px;
+}
+.subs p{
+    font-size: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+.subs input{
+    width: 280px;
+    height: 30px;
+    padding-left: 8px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #00BCFC;
+    color: white;
+}
+.subs button{
+    height: 30px;
+    width: 90px;
+    margin-left: -5px;
+    background-color: #00BCFC;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.social a{
+    color: #00BCFC;
+    text-decoration: none;
+    margin-left: 5px;
+    border: 1px solid #00BCFC;
+    padding: 4px 7px;
+    font-size: 10px;
+}
+.social{
+    margin-top: 40px;
+}
+.social a:hover{
+    color: white;
+    border-color: white;
+}
+.feature{
+    padding: 60px 0;
+}
+.feature h5{
+    font-size: 20px;
+}
+.line .left{
+    float: left;
+    height: 2px;
+    background-color: #00BCFC;
+    width: 100px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.line .mid{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid #00BCFC;
+    color: #00BCFC;
+}
+.line .right{
+    float: left;
+    height: 2px;
+    background-color: #00BCFC;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.line{
+    margin-left: 34.5%;
+    padding: 30px 0;
+}
+.feature h6{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 13px;
+    color: rgb(105, 105, 105);
+}
+.feature p{
+    font-size: 10px;
+    color: rgb(105, 105, 105);
+}
+.service{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px;
+    gap: 20px;
+    padding-top: 50px;
+    margin-left: 12.5%;
+}
+.service .s{
+    background-color: transparent;
+}
+.s i{
+    color: #00BCFC;
+    border: 2px solid #00BCFC;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+.s h3{
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.s p{
+    color: rgb(105, 105, 105);
+}
+.about{
+    background-color: #1B1B1B;
+    padding: 70px 0;
+}
+.about h5{
+    font-size: 20px;
+    color: white;
+}
+
+.about h6{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 13px;
+    color: rgb(151, 148, 148);
+}
+.about p{
+    font-size: 10px;
+    color: rgb(151, 148, 148);
+}
+.about .pic{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 240px;
+    margin-left: 12%;
+    gap: 40px;
+    margin-top: 50px;
+}
+.pic .p h4{
+    color: white;
+    font-size: 13px;
+    margin-bottom: 6px;
+    font-weight: 400;
+}
+.pic .p p{
+    color: #00BCFC;
+    font-size: 10px;
+}
+.pic .p .pic1, .pic2, .pic3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #00BCFC;
+    margin-bottom: 14px;
+}
+.pic .p .pic1{
+    background-image: url('pic1.jpg');
+    background-size: cover;
+}
+.pic .p .pic2{
+    background-image: url('pic2.jpg');
+    background-size: cover;
+}
+.pic .p .pic3{
+    background-image: url('pic3.jpg');
+    background-size: cover;
+}
+
+.contact{
+    padding: 60px 0;
+}
+.contact h5{
+    font-size: 20px;
+    color: black;
+}
+
+.contact h6{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 13px;
+    color: rgb(105, 105, 105);
+}
+.contact p{
+    font-size: 10px;
+    color: rgb(105, 105, 105);
+}
+
+.contact form{
+    width: 67%;
+    margin: auto;
+    margin-top: 5%;
+}
+.contact input{
+    width: 48%;
+    height: 30px;
+    margin-bottom: 30px;
+    outline: none;
+    padding: 10px;
+    border: 2px solid #00BCFC;
+    font-size: 11px;
+}
+.contact .in1{
+    float: left;
+}
+.contact .in2{
+    float: right;
+}
+.contact textarea{
+    width: 100%;
+    outline: none;
+    height: 160px;
+    padding: 10px;
+    border: 2px solid #00BCFC;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+.contact button{
+    background-color: #00BCFC;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 7px 10px;
+    padding-top: 8px;
+}
+.contact button:hover{
+    color: #00BCFC;
+    border: 2px solid #00BCFC;
+    background-color: white;
+}
+
+footer{
+    background-color: #262626;
+    color: rgb(182, 179, 179);
+    padding: 30px 39%;
+    font-size: 11px;
+}
+span{
+    color: #00BCFC;
+}
